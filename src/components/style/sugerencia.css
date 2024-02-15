@@ -1,0 +1,48 @@
+
+
+.info{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+    
+}
+
+.info a{
+  text-decoration: none;
+  font-size: 14px;
+  background: rgb(240, 240, 240);
+  color: #000;
+  border-radius: 9px;
+  padding: 6px;
+  font-weight: bold;
+  transition:.4s;
+}
+
+.info a:hover{
+  background: rgb(220, 220, 220);
+}
+
+.info a:first-child{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-weight: bold;
+}
+
+.info button{
+    border: none;
+    border-radius: 100%;
+    padding: 12px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.info button:hover{
+    background: rgb(220, 220, 220);
+}

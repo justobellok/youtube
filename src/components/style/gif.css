@@ -1,0 +1,28 @@
+.main section{
+    display: flex;
+  gap: 10px;
+    height: 90px;
+}
+
+.main .image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.article p{
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.article strong{
+ position: relative;
+ bottom: 40px;
+ float: right;
+ margin-right: 14px;
+}
